@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Question {
     String questionText;
     String[] options;
-    int correctOption; // index of correct option (0-based)
+    int correctOption; 
 
     public Question(String questionText, String[] options, int correctOption) {
         this.questionText = questionText;
@@ -61,4 +61,5 @@ public class QuizApp {
 
         scanner.close();
     }
+
 }
